@@ -1,0 +1,374 @@
+body{
+  background-color: oldlace;
+}
+.mySlides {display:none;}
+#middle-pic{
+  height: 400px;
+}
+#our-mission-label{
+  text-align: center;
+  font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+#whats-new-label{
+  text-align: center;
+  font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+#middle-container{
+  height: 500px;
+  position: relative;
+  bottom: 75px;
+}
+#logo{
+  width: 100px;
+}
+#left{
+  height:50px;
+  background-color: #cacaca;
+  z-index: 2;
+}
+#leftB{
+  height:40px;
+  background-color: #cacaca;
+  position: relative;
+  bottom: 60px;
+  z-index: 2;
+}
+#midM{
+  height:120px;
+  background-color: #4b8865ba;
+  position: relative;
+  bottom: 40px;
+  z-index: 1;
+}
+#Main-header{
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  text-align: left;
+  color: black;
+  position: relative;
+  top: 7px;
+}
+#header-container-mid{
+padding-top: 15px;
+  padding-bottom: 3px;
+}
+#Tabs{
+  position: relative;
+  bottom: 100px;
+}
+#publications-tabs{
+  position: relative;
+  bottom: 100px;
+}
+/* Style the navigation bar */
+.navbar {
+  width: 45%;
+  background-color: #555;
+  overflow: auto;
+  left: 55%;
+  bottom:130px;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  bottom: 170px;
+  z-index: 2;
+
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #9a9a9a;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen  and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+#aoi-mid-info{
+  padding-top: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#aoi-main-header{
+  padding-top: 3%;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+#aoi-box-text{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#aoi-left-label{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+#aoi2-left-label{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+#aoi-left-label-box{
+  width: 80%;
+  height: 600px;
+  margin-left:10%;
+  outline-style: solid;
+  color: #0000004a!important
+}
+#aoi2-mid-label-box{
+  width: 80%;
+  height: 600px;
+  margin-left:10%;
+  outline-style: solid;
+  color: #0000004a!important
+}
+#aoi3-right-label-box{
+  width: 80%;
+  height: 600px;
+  margin-left:10%;
+  outline-style: solid;
+  color: #0000004a!important
+}
+#aoi-left-label-h1{
+  font-family: 'Raleway', sans-serif;
+}
+#aoi-right-label-h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+#aoi-right-label{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  font-size: 18px;
+}
+#aoi2-left-label{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  font-size: 18px;
+}
+#aoi-mid-label{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  font-size: 18px;
+}
+
+
+#pubSeeall{
+  text-align: center;
+  padding-top: 250px;
+  position: relative;
+  font-size: 22px;
+}
+#labelbar{
+  height: 50px;
+  border: 1px solid grey;
+outline-style: double;
+outline-color: green;
+bottom: 30px;
+font-family: 'Raleway', sans-serif;
+position: relative;
+bottom: 115px;
+}
+#label-left{
+text-align: center;
+font-size: 35px;
+}
+#label-mid{
+text-align: center;
+font-size: 35px;
+}
+#label-right{
+text-align: center;
+font-size: 35px;
+}
+#page-id{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  right: 50%;
+}
+#Faculty-top-left-card{
+padding-top: 3%;
+padding-right: 1%;
+padding-bottom: 1%;
+}
+#Faculty-top-mid-card{
+padding-top: 3%;
+padding-right: 1%;
+padding-bottom: 1%;
+}
+#Faculty-top-right-card{
+padding-top: 3%;
+padding-right: 1%;
+padding-bottom: 1%;
+}
+#Faculty-bottom-left-card{
+padding-top: 1%;
+padding-right: 1%;
+padding-bottom: 1%;
+}
+#Faculty-bottom-mid-card{
+padding-top: 1%;
+padding-right: 1%;
+padding-bottom: 1%;
+}
+#Faculty-bottom-right-card{
+padding-top: 1%;
+padding-right: 1%;
+padding-bottom: 1%;
+}
+#search-button{
+  color: black;
+}
+#peoples-bar{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+#peoples-label-mid{
+  font-size: 48;
+  font-family: 'Raleway', sans-serif;
+}
+
+#Students-top-left-card{
+  padding-left: 1%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#Students-top-mid-card{
+  padding-left: 1%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#Students-top-right-card{
+  padding-left: 1%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#Students-bottom-left-card{
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#Students-bottom-mid-card{
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#Students-bottom-right-card{
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#Student-Button{
+  top: 325px;
+  left: 125px;
+  z-index: 2;
+}
+#Faculty-top-row{
+  position: relative;
+    left: 2%;
+}
+#Faculty-bottom-row{
+  position: relative;
+    left: 2%;
+}
+#Students-top-row{
+  position: relative;
+    right: 2%;
+}
+#Students-bottom-row{
+  position: relative;
+    right: 2%;
+}
+#the-button {
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+   padding: 2em;
+   margin: -2em;
+}
+#Seeall-button{
+  top: 310px;
+  left: 100px;
+}
+#publication-header{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  position: relative;
+  top:30px;
+  text-decoration: underline;
+}
+#publication-subheader{
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+}
+#publications-sidebar{
+  width: 27%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  left: 3%;
+  background-color: inherit;
+  height: 100%;
+  font-size: 20px;
+}
+#publication-main-info{
+  font-size: 22px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-family: 'Raleway', sans-serif;
+  bottom: 50px;
+}
+#publication-title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  position: relative;
+  bottom: 45px;
+}
+#publication-position-container{
+}
+#pub-highlight-container{
+  padding-top: 2%;
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Research Profile</title>
+  </head>
+  <body>
+
+    <!-- The universal header for each page -->
+      <div class="header">
+       <div id="header-container-top" class="col-md-12">
+         <div id="left" class="col-md-4"> </div>
+       </div>
+
+       <div id="header-container-mid" class="col-md-12">
+         <div id="midM" class="col-mid-12">
+           <h1 id="Main-header">Example Laboratory</h1>
+         </div>
+       </div>
+       <div id="header-container-bottom" class="col-md-12">
+         <div id="leftB" class="col-md-4"> </div>
+       </div>
+      </div>
+
+
+     <!-- Navigation bar-->
+ <div class="navbar">
+  <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="projects.html"><i class="fa fa-fw fa-search"></i>Projects</a>
+  <a href="aoi.html"><i class="fa fa-fw fa-envelope"></i>Areas Of interest</a>
+  <a class="active" href="peoples.html"><i class="fa fa-fw fa-user"></i>Peoples</a>
+  <a href="publications.html"> <i class="glyphicon glyphicon-file"></i>Publications</a>
+ </div>
+
+
+     <!--Faculty and Student cards seperated by tabs -->
+ <div id="Tabs" class="w3-container">
+
+  <div id="peoples-bar" class="w3-row">
+
+    <a href="javascript:void(0)" onclick="openTab(event, 'Faculty');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-border-red">Faculty</div>
+    </a>
+
+    <div class="w3-third">
+      <h1 id="peoples-label-mid">Whos Involved</h1>
+    </div>
+
+    <a href="javascript:void(0)" onclick="openTab(event, 'Students');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Students</div>
+    </a>
+
+
+  </div>
+
+   <div id="Faculty" class="col-lg-12 position" style="display:block">
+    <div id="Faculty-top-row" class="col-lg-12">
+      <div id="Faculty-top-left-card" class="col-lg-4" style="width: 25%; text-align: left;">
+        <div class="w3-card-4">
+        <header class="w3-container w3-pale-green">
+          <h3>Example Name</h3>
+        </header>
+
+        <div class="w3-container w3-white">
+          <p>Headline info</p>
+          <hr>
+          <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+          <p>Some important information about this person...</p>
+        </div>
+
+        <button class="w3-button w3-block w3-dark-grey">Connect</button>
+        </div>
+      </div>
+      <div id="Faculty-top-mid-card" class="col-lg-4" style="width: 25%; text-align: left;">
+        <header class="w3-container w3-pale-green">
+          <h3>Example Name</h3>
+        </header>
+
+        <div class="w3-container w3-white">
+          <p>Headline info</p>
+          <hr>
+          <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+          <p>Some important information about this person...</p>
+        </div>
+
+        <button class="w3-button w3-block w3-dark-grey">Connect</button>
+        </div>
+      <div id="Faculty-top-right-card" class="col-lg-4" style="width: 25%; text-align: left;">
+        <div class="w3-card-4">
+
+          <header class="w3-container w3-pale-green">
+            <h3>Example Name</h3>
+          </header>
+
+          <div class="w3-container w3-white">
+            <p>Headline info</p>
+            <hr>
+            <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+            <p>Some important information about this person...</p>
+        </div>
+
+        <button class="w3-button w3-block w3-dark-grey">Connect</button>
+        </div>
+      </div>
+      <div id="Seeall-button" class="col-lg-4" style="width: 25%">
+          <a href="faculty_all.html">See All Faculty Members Involved!</a>
+      </div>
+    </div>
+    <div id="Faculty-bottom-row" class="col-lg-12">
+     <div id="Faculty-bottom-left-card" class="col-lg-4" style="width: 25%; text-align: left;">
+      <div class="w3-card-4">
+      <header class="w3-container w3-pale-green">
+        <h3>Last Name</h3>
+      </header>
+
+      <div class="w3-container w3-white">
+        <p>Headline info Will go here</p>
+        <hr>
+        <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+        <p>Some informaion about this person</p>
+      </div>
+
+      <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     </div>
+     <div id="Faculty-bottom-mid-card" class="col-lg-4" style="width: 25%; text-align: left;">
+      <header class="w3-container w3-pale-green">
+        <h3>First Last</h3>
+      </header>
+
+      <div class="w3-container w3-white">
+        <p>Headline Test info</p>
+        <hr>
+        <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+        <p>This person is very important</p>
+      </div>
+
+      <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     <div id="Faculty-bottom-right-card" class="col-lg-4" style="width: 25%; text-align: left;">
+      <div class="w3-card-4">
+
+      <header class="w3-container w3-pale-green">
+        <h3>First Name</h3>
+      </header>
+
+      <div class="w3-container w3-white">
+        <p>Headline info</p>
+        <hr>
+        <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+        <p>Went to a very good college and did stuff</p>
+      </div>
+
+      <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     </div>
+    </div>
+   </div>
+
+   <div id="Students" class="col-lg-12 position" style="display:none">
+    <div id="Students-top-row" class="col-lg-12">
+     <div id="Student-Button" class="col-lg-4" style="width: 25%">
+          <a href="students_all.html">See All Student Members Involved!</a>
+      </div>
+     <div id="Students-top-left-card" class="col-lg-4" style="text-align: right; width: 25%;">
+      <div class="w3-card-4">
+       <header class="w3-container w3-pale-green">
+        <h3>Example name</h3>
+       </header>
+       <div class="w3-container w3-white">
+         <p>Headline info</p>
+         <hr>
+         <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+         <p>This is where important information goes</p>
+       </div>
+       <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     </div>
+     <div id="Students-top-mid-card" class="col-lg-4" style="text-align: right; width: 25%;">
+      <div class="w3-card-4">
+       <header class="w3-container w3-pale-green">
+         <h3>John Doe</h3>
+       </header>
+       <div class="w3-container w3-white">
+         <p>Headline info</p>
+         <hr>
+         <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+         <p>President/CEO at the best business ever</p>
+       </div>
+       <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     </div>
+     <div id="Students-top-right-card" class="col-lg-4" style="text-align: right; width: 25%;">
+      <div class="w3-card-4">
+       <header class="w3-container w3-pale-green">
+        <h3>John Doe</h3>
+       </header>
+
+       <div class="w3-container w3-white">
+         <p>Headline info</p>
+         <hr>
+         <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+         <p>President/CEO at Mighty Schools...</p>
+       </div>
+
+       <button class="w3-button w3-block w3-dark-grey">Connect</button>
+       </div>
+      </div>
+     </div>
+    <div id="Students-bottom-row" class="col-lg-12">
+     <div id="spacer" class="col-lg-4" style="width: 25%; color: white;">0</div>
+     <div id="Students-bottom-left-card" class="col-lg-4" style="text-align: right; width: 25%;">
+      <div class="w3-card-4">
+       <header class="w3-container w3-pale-green">
+        <h3>First and Last</h3>
+       </header>
+       <div class="w3-container w3-white">
+        <p>Headline info</p>
+        <hr>
+        <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+        <p>Some important imformation will be here</p>
+       </div>
+       <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     </div>
+     <div id="Students-bottom-mid-card" class="col-lg-4" style="text-align: right; width: 25%;">
+      <div class="w3-card-4">
+       <header class="w3-container w3-pale-green">
+        <h3>First Name!</h3>
+       </header>
+
+       <div class="w3-container w3-white">
+        <p>Headline info</p>
+        <hr>
+        <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+        <p>This person has done some good things</p>
+       </div>
+        <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     </div>
+     <div id="Students-bottom-right-card" class="col-lg-4" style="text-align: right; width: 25%;">
+      <div class="w3-card-4">
+       <header class="w3-container w3-pale-green">
+        <h3>First Last</h3>
+       </header>
+
+       <div class="w3-container w3-white">
+        <p>Headline info</p>
+        <hr>
+        <img src="images/img_avatar3.png" alt="Avatar" class="w3-left w3-circle" style="width:25%">
+        <p>Graduated from a couple schools</p>
+       </div>
+         <button class="w3-button w3-block w3-dark-grey">Connect</button>
+      </div>
+     </div>
+    </div>
+   </div>
+
+  </div>
+
+  </body>
+
+
+</html>
