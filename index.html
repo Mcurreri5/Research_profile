@@ -41,33 +41,70 @@
 <div id="middle-container" class="col-lg-12">
   <div class="col-lg-3">
     <h1 id="our-mission-label">Our Mission</h1>
+      <p id="our-mission-info">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit, nunc himenaeos odio aliquam
+          himenaeos mon urna faucibus enim habitasse vivamus,
+      </p>
+      <br>
+      <p id="our-mission-info">
+        justo vehiculaibero ante lectus, id vehicula felis est sociosqu urna posuere
+      </p>
   </div>
   <div id="middle-pic" class="col-lg-6">
-    <div class="w3-content w3-section" style="max-width:375px">
-      <img class="mySlides" src="images/science-logo-transparent-4.png" style="width:100%; display:none;">
-      <img class="mySlides" src="images/img_avatar3.png" style="width:100%; display: none;">
-      <img class="mySlides" src="images/transparent-logo.jpg" style="width:100%; display: none;">
+    <div class="w3-content w3-section" style="max-width:600px">
+      <img id="boxshadow" class="mySlides" src="images/brain2.jpg" style="width:100%; display:none;">
+      <img id="boxshadow" class="mySlides" src="images/barin5.jpg" style="width:105%; display: none;">
+      <img id="boxshadow" class="mySlides" src="images/brain3.jpg" style="width:100%; display: none;">
+      <img id="boxshadow" class="mySlides" src="images/brain6.jpg" style="width:100%; display: none;">
     </div>
    </div>
 
-  <div class="col-lg-3">
-    <h1 id="whats-new-label">Whats New!</h1>
+  <div id="what-we-do-container" class="col-lg-3">
+    <h1 id="what-we-do-label">What We Do</h1>
+
   </div>
 </div>
 
 
 <div id="labelbar" class="col-md-12">
   <div id="label-left" class="col-md-4">Our Research</div>
-  <div id="label-mid" class="col-md-4">What We Do</div>
+  <div id="label-mid" class="col-md-4">Whats new!</div>
   <div id="label-right" class="col-md-4">Our Success</div>
 </div>
 
 <div class="col-lg-12" id="first-info-bar">
-  <div class="col-lg-4" id="left-first-info">0</div>
-  <div class="col-lg-4" id="middle-first-pic">
-
+  <div class="col-lg-4" id="left-first-info">
+    <h2 id="research">The First header</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+    <br>
+    <h2 id="research">This is the Second</h2>
+    <p>consectetur adipiscing elit, nunamet adipiscing elit</p>
+    <br>
+    <h2 id="research">More headers are Here</h2>
+    <p>Lorem olor sit amet a faucibus enim habitasse vi</p>
+    <br>
+    <h2 id="research">Big Facts are Here</h2>
+    <p>Lorem ipsum adipiscing elit</p>
+    <br>
   </div>
-  <div class="col-lg-4" id="right-first-info">0</div>
+  <div class="col-lg-4" id="whats-new-info">
+    <p id="our-mission-info">Lorem ipsum dolor sit amet consectetur adipiscing elit,</p>
+    <br>
+    <p id="our-mission-info">justo vehiculaibero ante lectus, id vehicula felis est</p>
+    <br>
+    <p id="our-mission-info">consectetur adipiscing elit, nunc himenaeos odio aliquam</p>
+    <br>
+    <p id="our-mission-info">himenaeos mon urna faucibus enim habitasse vivamus</p>
+  </div>
+  <div class="col-lg-4" id="right-first-info">
+    <p id="our-mission-info">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit, nunc himenaeos odio aliquam
+          himenaeos mon urna faucibus enim habitasse vivamus,
+      <br>
+      <p id="our-mission-info">
+        justo vehiculaibero ante lectus, id vehicula felis est sociosqu urna posuere
+      </p>
+  </div>
 </div>
 
 <script>
@@ -83,7 +120,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}
   x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 </script>
   </body>

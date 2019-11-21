@@ -8,37 +8,166 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
     <title>Research Profile</title>
   </head>
-  <body>
-    <!-- The universal header for each page -->
-      <div class="header">
-       <div id="header-container-top" class="col-md-12">
-         <div id="left" class="col-md-4"> </div>
-       </div>
 
-       <div id="header-container-mid" class="col-md-12">
-         <div id="midM" class="col-mid-12">
-           <h1 id="Main-header">Example Laboratory</h1>
-         </div>
-       </div>
-       <div id="header-container-bottom" class="col-md-12">
-         <div id="leftB" class="col-md-4"> </div>
-       </div>
-      </div>
+<body>
+  <!-- The universal header for each page -->
+    <div class="header">
+     <div id="header-container-top" class="col-md-12">
+       <div id="left" class="col-md-4"> </div>
+     </div>
 
+     <div id="header-container-mid" class="col-md-12">
+       <div id="midM" class="col-mid-12">
+         <h1 id="Main-header">Example Laboratory</h1>
+       </div>
+     </div>
+     <div id="header-container-bottom" class="col-md-12">
+       <div id="leftB" class="col-md-4"> </div>
+     </div>
+    </div>
+
+   <!-- Navigation bar-->
 <div class="navbar">
   <a href="index.html"><i class="fa fa-fw fa-home" id="search-button"></i> Home</a>
   <a class="active" href="projects.html"><i class="fa fa-fw fa-search" ></i>Projects</a>
   <a href="aoi.html"><i class="fa fa-fw fa-envelope"></i>Areas Of interest</a>
   <a href="peoples.html"><i class="fa fa-fw fa-user"></i>Peoples</a>
-    <a href="publications.html"> <i class="glyphicon glyphicon-file"></i>Publications</a>
+  <a href="publications.html"> <i class="glyphicon glyphicon-file"></i>Publications</a>
 </div>
 
+
 <div id="labelbar" class="col-md-12">
-  <div id="label-left" class="col-md-4">O</div>
-  <div id="label-mid" class="col-md-4">Projects</div>
-  <div id="label-right" class="col-md-4">O</div>
+  <div id="label-left" class="col-md-4">Projects</div>
+  <div id="label-mid" class="col-md-4"></div>
+  <div id="label-right" class="col-md-4"></div>
 </div>
+
+<div id="publications-sidebar" class="w3-sidebar w3-bar-block">
+
+  <a href="javascript:void(0)" onclick="openTab(event, 'Publication-all-1');tab1();">
+  <div class="w3-bar-item w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+  The brain project
+  </div>
+  </a>
+
+  <a href="javascript:void(0)" onclick="openTab(event, 'Publication-all-2');tab2();">
+  <div class="w3-bar-item w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+  Starting from the bottom
+  </div>
+  </a>
+
+  <a href="javascript:void(0)" onclick="openTab(event, 'Publication-all-3');tab3();">
+  <div class="w3-bar-item w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+  Single-trial linear correlation analysis
+  </div>
+  </a>
+
+  <a href="javascript:void(0)" onclick="openTab(event, 'Publication-all-4');tab4()">
+  <div class="w3-bar-item w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+  Spatiotemporal Linear Decoding of Brain State
+  </div>
+  </a>
+
+  <a href="javascript:void(0)" onclick="openTab(event, 'Publication-all-5');tab5();">
+  <div class="w3-bar-item w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+  Sample project Goes Here
+  </div>
+  </a>
+
+</div>
+
+<div id="publication-position-container" style="position:relative; bottom: 50px;">
+
+<div id="title-container" class="col-md-12">
+  <div class="col-md-4" style="color:oldlace">
+    0
+  </div>
+  <div class="col-md-8" style="text-align:center;">
+    <h1 id="publication-title">Your Brain on the Movies</h1>
+    <div class="col-sm-12">
+      <div class="col-sm-3" style="bottom: 30px;">Author 1</div>
+      <div class="col-sm-3" style="bottom: 30px;">Author 2</div>
+      <div class="col-sm-3" style="bottom: 30px;">Author 3</div>
+      <div class="col-sm-3" style="bottom: 30px;">Author 4</div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="Publication-all-1" class="col-lg-12 position" style="display:block">
+  <div class="col-lg-4" style="color:oldlace;">
+    <h1>pub 1</h1>
+  </div>
+  <div id="all-tab-1" class="col-lg-8" style="bottom: 50px;">
+    <div class="w3-display-container w3-light-grey" style="width: 95%">
+      <p id="publication-main-info">
+          The ability to anticipate the population-wide response of a target audience to a new movie or TV series, before its release, is critical to the film industry. Equally important is the ability to understand the underlying factors that drive or characterize viewer’s decision to watch a movie. Traditional approaches (which involve pilot test-screenings, questionnaires, and focus groups) have reached a plateau in their ability to predict the population-wide responses to new movies. In this study, we develop a novel computational approach for extracting neurophysiological electroencephalography (EEG) and eye-gaze based metrics to predict the population-wide behavior of movie goers. We further, explore the connection of the derived metrics to the underlying cognitive processes that might drive moviegoers’ decision to watch a movie. Towards that, we recorded neural activity—through the use of EEG—and eye-gaze activity from a group of naive individuals while watching movie trailers of pre-selected movies for which the population-wide preference is captured by the movie’s market performance (i.e., box-office ticket sales in the US). Our findings show that the neural based metrics, derived using the proposed methodology, carry predictive information about the broader audience decisions to watch a movie, above and beyond traditional methods. In particular, neural metrics are shown to predict up to 72% of the variance of the films’ performance at their premiere and up to 67% of the variance at following weekends; which corresponds to a 23-fold increase in prediction accuracy compared to current neurophysiological or traditional methods. We discuss our findings in the context of existing literature and hypothesize on the possible connection of the derived neurophysiological metrics to cognitive states of focused attention, the encoding of long-term memory, and the synchronization of different components of the brain’s rewards network. Beyond the practical implication in predicting and understanding the behavior of moviegoers, the proposed approach can facilitate the use of video stimuli in neuroscience research; such as the study of individual differences in attention-deficit disorders, and the study of desensitization to media violence.
+      </p>
+     </div>
+   </div>
+ </div>
+<div id="Publication-all-2" class="col-lg-12 position" style="display:none">
+  <div class="col-lg-4"style="color:oldlace;">
+    <h1>pub 2</h1>
+  </div>
+  <div id="all-tab-2" class="col-lg-8" style="bottom: 50px;">
+    <div class="w3-display-container w3-light-grey" style="width: 95%">
+      <p id="publication-main-info">
+          Eye-tracking has been extensively used to quantify audience preferences in the context of marketing and advertising research, primarily in methodologies involving static images or stimuli (i.e., advertising, shelf testing, and website usability). However, these methodologies do not generalize to narrative-based video stimuli where a specific storyline is meant to be communicated to the audience. In this paper, a novel metric based on eye-gaze dispersion (both within and across viewings) that quantifies the impact of narrative-based video stimuli to the preferences of large audiences is presented. The metric is validated in predicting the performance of video advertisements aired during the 2014 Super Bowl final. In particular, the metric is shown to explain 70% of the variance in likeability scores of the 2014 Super Bowl ads as measured by the USA TODAY Ad-Meter. In addition, by comparing the proposed metric with Heart Rate Variability (HRV) indices, we have associated the metric with biological processes relating to attention allocation. The underlying idea behind the proposed metric suggests a shift in perspective when it comes to evaluating narrative-based video stimuli. In particular, it suggests that audience preferences on video are modulated by the level of viewers lack of attention allocation. The proposed metric can be calculated on any narrative-based video stimuli (i.e., movie, narrative content, emotional content, etc.), and thus has the potential to facilitate the use of such stimuli in several contexts: prediction of audience preferences of movies, quantitative assessment of entertainment pieces, prediction of the impact of movie trailers, identification of group, and individual differences in the study of attention-deficit disorders, and the study of desensitization to media violence. the proposed approach can facilitate the use of video stimuli in neuroscience research; such as the study of individual differences in attention-deficit disorders, and the study of desensitization to media violence.
+      </p>
+    </div>
+  </div>
+</div>
+<div id="Publication-all-3" class="col-lg-12 position" style="display:none">
+  <div class="col-lg-4" style="color:oldlace;">
+    <h1>pub 3</h1>
+  </div>
+   <div id="all-tab-3" class="col-lg-8" style="bottom: 50px;">
+    <div class="w3-display-container w3-light-grey" style="width: 95%;">
+      <p id="publication-main-info">
+          A key objective in systems and cognitive neuroscience is to establish associations between behavioral measures and concurrent neuronal activity. Single-trial analysis has been proposed as a novel method for characterizing such correlates by first extracting neural components that maximally discriminate trials on a categorical variable, (e.g., hard vs. easy, correct vs. incorrect etc.), and then correlate those components to a continues dependent variable of interest, e.g., reaction time, difficulty Index, etc. However, often times in experiment design it is difficult to either define meaningful categorical variables, or to record enough trials for the method to extract the discriminant components. Experiments designed for the study of the effects of stimulus presentation modality in working memory provide such a scenario, as will be exemplified. In this paper, we proposed a new approach to single-trial analysis in which we directly extract neural activity that maximally correlates to single-trial manual response times; eliminating the need to define an arbitrary categorical variable. We demonstrate our method on real electroencephalography (EEG) data recordings from the study of stimulus presentation modality effect (SPME).
+      </p>
+    </div>
+  </div>
+</div>
+<div id="Publication-all-4" class="col-lg-12 position" style="display:none">
+  <div class="col-lg-4" style="color:oldlace;">
+    <h1>pub 3</h1>
+  </div>
+   <div id="all-tab-3" class="col-lg-8" style="bottom: 50px;">
+    <div class="w3-display-container w3-light-grey" style="width: 95%;">
+      <p id="publication-main-info">
+          This review summarizes linear spatiotemporal signal analysis methods that derive their power from careful consideration of spatial and temporal features of skull surface potentials. BCIs offer tremendous potential for improving the quality of life for those with severe neurological disabilities. At the same time, it is now possible to use noninvasive systems to improve performance for time-demanding tasks. Signal processing and machine learning are playing a fundamental role in enabling applications of BCI and in many respects, advances in signal processing and computation have helped to lead the way to real utility of noninvasive BCI.
+      </p>
+    </div>
+  </div>
+</div>
+<div id="Publication-all-5" class="col-lg-12 position" style="display:none">
+  <div class="col-lg-4" style="color:oldlace;">
+    <h1>pub 3</h1>
+  </div>
+   <div id="all-tab-3" class="col-lg-8" style="bottom: 50px;">
+    <div class="w3-display-container w3-light-grey" style="width: 95%">
+      <p id="publication-main-info">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In pellentesque massa placerat duis ultricies lacus sed turpis. Pellentesque sit amet porttitor eget dolor morbi non arcu. Sollicitudin nibh sit amet commodo. Velit ut tortor pretium viverra suspendisse. Ultrices sagittis orci a scelerisque purus semper. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Aliquet lectus proin nibh nisl condimentum id venenatis a. Tellus in metus vulputate eu scelerisque felis. Pharetra vel turpis nunc eget lorem dolor sed viverra. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Pretium quam vulputate dignissim suspendisse in.
+
+        Amet mauris commodo quis imperdiet massa tincidunt. Quis vel eros donec ac odio. Felis bibendum ut tristique et egestas quis. Molestie nunc non blandit massa enim nec. Nunc faucibus a pellentesque sit. In nibh mauris cursus mattis molestie a. Nunc scelerisque viverra mauris in. Integer vitae justo eget magna fermentum iaculis eu non diam. Quis imperdiet massa tincidunt nunc pulvinar sapien. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. In mollis nunc sed id semper risus. Morbi leo urna molestie at elementum eu facilisis sed odio. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Pellentesque nec nam aliquam sem. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. In est ante in nibh mauris cursus. Gravida rutrum quisque non tellus orci. A arcu cursus vitae congue mauris rhoncus aenean.
+
+        Cursus risus at ultrices mi. Integer vitae justo eget magna fermentum iaculis eu. Faucibus interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Eu consequat ac felis donec et odio pellentesque diam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Hac habitasse platea dictumst vestibulum rhoncus est. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Quam nulla porttitor massa id neque aliquam vestibulum. Porta nibh venenatis cras sed felis eget. Auctor elit sed vulputate mi. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Tincidunt augue interdum velit euismod in. Elementum nisi quis eleifend quam adipiscing vitae proin.
+
+        Cras adipiscing enim eu turpis egestas. Tellus integer feugiat scelerisque varius. Vel orci porta non pulvinar. Purus gravida quis blandit turpis cursus. Senectus et netus et malesuada fames ac turpis. Tristique nulla aliquet enim tortor at auctor urna nunc. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Non odio euismod lacinia at quis risus sed vulputate. Ultricies mi quis hendrerit dolor. Ut sem viverra aliquet eget sit amet tellus. Mus mauris vitae ultricies leo integer malesuada nunc vel. Rutrum tellus pellentesque eu tincidunt. Arcu non odio euismod lacinia. Dapibus ultrices in iaculis nunc sed augue. Urna neque viverra justo nec ultrices dui sapien eget. Augue lacus viverra vitae congue eu consequat. Ut aliquam purus sit amet luctus venenatis.
+
+        Aliquet nibh praesent tristique magna sit amet purus. Urna duis convallis convallis tellus id. Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Nulla facilisi etiam dignissim diam quis. Arcu ac tortor dignissim convallis aenean et. Facilisis volutpat est velit egestas dui id ornare arcu odio. Et tortor consequat id porta nibh venenatis cras. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Et netus et malesuada fames ac turpis egestas.      </p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
   </body>
 </html>
